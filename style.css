@@ -5,12 +5,14 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(sunny\ background.png);
+  background-image: url(sunny\ backround.png);
   background-size: cover;
   background-position: center;
   position: relative;
   overflow: hidden;
+  animation: sunnybackground 8s linear infinite;
 }
+
 .highway {
   height: 420px;
   width: 500%;
@@ -35,7 +37,7 @@
   background-image: url(city.png);
   position: absolute;
   /* bottom: 100; */
-  top: 160px;
+  top: 230px;
   left: 0;
   right: 0;
   display: block;
