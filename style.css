@@ -37,7 +37,7 @@
   background-image: url(city.png);
   position: absolute;
   /* bottom: 100; */
-  top: 230px;
+  top: 120px;
   left: 0;
   right: 0;
   display: block;
@@ -52,7 +52,6 @@
 }
 .car img {
   width: 200px;
-  /* height: 300px; */
   left: 50%;
   bottom: 130px;
   transform: translateX(-50%);
